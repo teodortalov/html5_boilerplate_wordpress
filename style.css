@@ -461,6 +461,7 @@ header[role="banner"] nav ul li {
 #posts {
 	margin-top: 1em;
 	min-height: 500px;
+
 }
 
 #posts nav {
@@ -477,6 +478,15 @@ header[role="banner"] nav ul li {
 	float: right;
 }
 
+article#content{
+	border: 3px solid red;
+}
+aside#contentwrap{
+	border: 3px solid blue;
+}
+article.post{
+	border: 3px solid green;
+}
 article.post h2 a {
 	color: #333;
 	text-decoration: none;
