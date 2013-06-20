@@ -30,10 +30,8 @@
 <body <?php if(is_front_page()): ?>id="home"<?php endif; ?> <?php body_class(); ?>>
 	<div id="container">
 		<header role="banner">
-			<hgroup>
 				<h1><a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></h1>
 				<h2><?php bloginfo('description'); ?></h2>
-			</hgroup>
 
 			<nav id="primary">
 				<?php wp_nav_menu( array('menu' => 'Primary Navigation' )); ?>
